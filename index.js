@@ -13,7 +13,6 @@ function analyzeSentence(sentence) {
       if (sentence[i] === ' ' && i !== sentence.length - 1) {
         wordCount++;
       }
-  
       // Check if the current character is a vowel (case-insensitive)
       if ('aeiouAEIOU'.includes(sentence[i])) {
         vowelCount++;
